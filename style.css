@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: red;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.antigamente {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.antigamente img {
+    width: 232px;
+    height: 131px;
+    object-fit: cover;
+    border: 5px solid red;
+    border-radius: 20px;
+}
+
+.hoje {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.hoje img {
+    width: 399px;
+    height: 451px;
+    object-fit: cover;
+    border: 5px solid red;
+    border-radius: 20px;
+}
